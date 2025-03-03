@@ -6,20 +6,20 @@ import {RiMenu3Fill} from "react-icons/ri";
 
 const Header = () => {
     return (
-        <div className="  border-b border-b-zinc-300">
+        <div className="border-b border-b-zinc-300">
             <div className="container  flex items-center justify-between w-full sticky top-0 w-full left-0">
 
 
-                <Link className="text-xl italic font-bold" href={'/'}>Chat-Me</Link>
+                <Link className="text-xl italic font-bold text-white" href={'/'}>Chat-Me</Link>
 
-                <nav className="hidden md:flex items-center gap-3">
+                <nav className="hidden md:flex items-center gap-3 text-white">
                     <Link className="hover:underline hoverEffect" href='/'>Chat's</Link>
                     <Link className="hover:underline hoverEffect" href='/'>Group's</Link>
                     <Link className="hover:underline hoverEffect" href='/'>Followers</Link>
                 </nav>
 
 
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 text-white ">
 
 
                     <Link

@@ -8,10 +8,13 @@
     }
 
     .hoverEffect {
-       @apply transition-all duration-300 ease-in-out;
+        @apply transition-all duration-300 ease-in-out;
     }
 }
 
+@theme {
+    --color-black: #1B1B1B;
+}
 
 body {
     margin: 0px;
